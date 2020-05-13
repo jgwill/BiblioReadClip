@@ -13,7 +13,7 @@
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
     <IsWebBootstrapper>true</IsWebBootstrapper>
-    <PublishUrl>C:\Users\jeang\Dropbox\usr\local\metasynt\readclip\0.1.0\</PublishUrl>
+    <PublishUrl>C:\Users\jeang\Dropbox\usr\local\metasynt\readclip\0.2.0\</PublishUrl>
     <Install>true</Install>
     <InstallFrom>Web</InstallFrom>
     <UpdateEnabled>true</UpdateEnabled>
@@ -23,7 +23,7 @@
     <UpdatePeriodically>false</UpdatePeriodically>
     <UpdateRequired>false</UpdateRequired>
     <MapFileExtensions>true</MapFileExtensions>
-    <InstallUrl>http://guillaumeisabelle.com/a/metasynt/readclip/0.1.0/</InstallUrl>
+    <InstallUrl>http://guillaumeisabelle.com/a/metasynt/readclip/0.2.0/</InstallUrl>
     <ProductName>ReadClipCite</ProductName>
     <PublisherName>Guillaume Descoteaux-Isabelle</PublisherName>
     <SuiteName>MetaSynt</SuiteName>
@@ -100,6 +100,11 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <None Include="docs\README.md" />
+    <None Include="Resources\PlayStep_ActionGrey_16x.png" />
+    <None Include="Resources\Add_inverse_16x.png" />
+    <None Include="Resources\ActionTool_16x.png" />
+    <None Include="Resources\Stop.ico" />
     <EmbeddedResource Include="MainForm.resx">
       <DependentUpon>MainForm.cs</DependentUpon>
     </EmbeddedResource>
@@ -111,6 +116,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <Content Include="biblio.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>

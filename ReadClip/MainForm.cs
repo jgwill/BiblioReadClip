@@ -77,8 +77,7 @@ namespace ReadClip
         public static void ReadText(string txt)
         {
 
-            // Initialize a new instance of the SpeechSynthesizer.  
-            SpeechSynthesizer synth = new SpeechSynthesizer();
+
 
             // Configure the audio output.   
             synth.SetOutputToDefaultAudioDevice();
@@ -86,6 +85,8 @@ namespace ReadClip
             // Speak a string.  
             synth.SpeakAsync(txt);
         }
+        static SpeechSynthesizer synth;
+
         private void pasteNRead__button_Click(object sender, EventArgs e)
         {
             ReadClipboard();
@@ -126,9 +127,21 @@ namespace ReadClip
 
         private void MainForm_Load(object sender, EventArgs e)
         {
+            InitStuff();
+
             //ReadBiblioText__DEPRECATING();
             ReadBiblioJSON();
         }
+
+        private void InitStuff()
+        {
+            // Initialize a new instance of the SpeechSynthesizer.  
+            if (synth == null) synth = new SpeechSynthesizer();
+            synth.SpeakCompleted += Synth_SpeakCompleted;
+            synth.SpeakStarted += Synth_SpeakStarted;
+        }
+
+      
 
         private void ReadBiblioJSON()
         {
@@ -275,5 +288,44 @@ namespace ReadClip
             CopyTextBoxToClipboard();
 
         }
+
+        private void stop__toolStripButton_Click(object sender, EventArgs e)
+        {
+
+            if (synth != null)
+            {
+                switch (synth.State)
+                {
+                    case SynthesizerState.Ready:
+                        break;
+                    case SynthesizerState.Speaking:
+                        synth.Pause();
+                        this.stop__toolStripButton.Image = global::ReadClip.Properties.Resources.PlayStep_ActionGrey_16x;
+                        break;
+                    case SynthesizerState.Paused:
+                        synth.Resume();
+                        this.stop__toolStripButton.Image = global::ReadClip.Properties.Resources.Stop;
+                        break;
+                    default:
+                        break;
+                }
+
+
+            }
+
+
+        }
+        #region SpeakSynt Status change event action
+        private void Synth_SpeakCompleted(object sender, SpeakCompletedEventArgs e)
+        {
+            this.stop__toolStripButton.Image = global::ReadClip.Properties.Resources.Add_inverse_16x;
+        }
+
+        private void Synth_SpeakStarted(object sender, SpeakStartedEventArgs e)
+        {
+this.stop__toolStripButton.Image = global::ReadClip.Properties.Resources.Stop;
+        }
+
+        #endregion
     }
 }

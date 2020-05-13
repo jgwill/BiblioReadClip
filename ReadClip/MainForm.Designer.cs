@@ -47,6 +47,8 @@
             this.consoleText = new System.Windows.Forms.RichTextBox();
             this.statusStrip1 = new System.Windows.Forms.StatusStrip();
             this._status = new System.Windows.Forms.ToolStripStatusLabel();
+            this.toolStrip1 = new System.Windows.Forms.ToolStrip();
+            this.stop__toolStripButton = new System.Windows.Forms.ToolStripButton();
             ((System.ComponentModel.ISupportInitialize)(this.biblioCslBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
             this.splitContainer1.Panel1.SuspendLayout();
@@ -56,6 +58,7 @@
             this.tabPage1.SuspendLayout();
             this.tabPage2.SuspendLayout();
             this.statusStrip1.SuspendLayout();
+            this.toolStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
             // readText_button
@@ -144,7 +147,7 @@
             // splitContainer1
             // 
             this.splitContainer1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.splitContainer1.Location = new System.Drawing.Point(0, 0);
+            this.splitContainer1.Location = new System.Drawing.Point(0, 50);
             this.splitContainer1.Name = "splitContainer1";
             this.splitContainer1.Orientation = System.Windows.Forms.Orientation.Horizontal;
             // 
@@ -160,8 +163,8 @@
             // splitContainer1.Panel2
             // 
             this.splitContainer1.Panel2.Controls.Add(this.tabControl1);
-            this.splitContainer1.Size = new System.Drawing.Size(1098, 512);
-            this.splitContainer1.SplitterDistance = 190;
+            this.splitContainer1.Size = new System.Drawing.Size(1098, 462);
+            this.splitContainer1.SplitterDistance = 171;
             this.splitContainer1.TabIndex = 6;
             // 
             // copy__button
@@ -196,7 +199,7 @@
             this.tabControl1.Location = new System.Drawing.Point(0, 0);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
-            this.tabControl1.Size = new System.Drawing.Size(1098, 318);
+            this.tabControl1.Size = new System.Drawing.Size(1098, 287);
             this.tabControl1.TabIndex = 2;
             // 
             // tabPage1
@@ -205,7 +208,7 @@
             this.tabPage1.Location = new System.Drawing.Point(8, 39);
             this.tabPage1.Name = "tabPage1";
             this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage1.Size = new System.Drawing.Size(1082, 271);
+            this.tabPage1.Size = new System.Drawing.Size(1082, 240);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "Context";
             this.tabPage1.UseVisualStyleBackColor = true;
@@ -216,7 +219,7 @@
             this.textToSynthesize__textBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.1F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textToSynthesize__textBox.Location = new System.Drawing.Point(3, 3);
             this.textToSynthesize__textBox.Name = "textToSynthesize__textBox";
-            this.textToSynthesize__textBox.Size = new System.Drawing.Size(1076, 265);
+            this.textToSynthesize__textBox.Size = new System.Drawing.Size(1076, 234);
             this.textToSynthesize__textBox.TabIndex = 0;
             this.textToSynthesize__textBox.Text = "This is a sample text";
             // 
@@ -226,7 +229,7 @@
             this.tabPage2.Location = new System.Drawing.Point(8, 39);
             this.tabPage2.Name = "tabPage2";
             this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage2.Size = new System.Drawing.Size(1082, 271);
+            this.tabPage2.Size = new System.Drawing.Size(1082, 240);
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "Console";
             this.tabPage2.UseVisualStyleBackColor = true;
@@ -236,7 +239,7 @@
             this.consoleText.Dock = System.Windows.Forms.DockStyle.Fill;
             this.consoleText.Location = new System.Drawing.Point(3, 3);
             this.consoleText.Name = "consoleText";
-            this.consoleText.Size = new System.Drawing.Size(1076, 265);
+            this.consoleText.Size = new System.Drawing.Size(1076, 234);
             this.consoleText.TabIndex = 0;
             this.consoleText.Text = "";
             // 
@@ -257,6 +260,27 @@
             this._status.Size = new System.Drawing.Size(85, 32);
             this._status.Text = "-------";
             // 
+            // toolStrip1
+            // 
+            this.toolStrip1.ImageScalingSize = new System.Drawing.Size(32, 32);
+            this.toolStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.stop__toolStripButton});
+            this.toolStrip1.Location = new System.Drawing.Point(0, 0);
+            this.toolStrip1.Name = "toolStrip1";
+            this.toolStrip1.Size = new System.Drawing.Size(1098, 50);
+            this.toolStrip1.TabIndex = 8;
+            this.toolStrip1.Text = "toolStrip1";
+            // 
+            // stop__toolStripButton
+            // 
+            this.stop__toolStripButton.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.stop__toolStripButton.Image = global::ReadClip.Properties.Resources.Add_inverse_16x;
+            this.stop__toolStripButton.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.stop__toolStripButton.Name = "stop__toolStripButton";
+            this.stop__toolStripButton.Size = new System.Drawing.Size(46, 44);
+            this.stop__toolStripButton.Text = "Stop reading";
+            this.stop__toolStripButton.Click += new System.EventHandler(this.stop__toolStripButton_Click);
+            // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
@@ -266,6 +290,7 @@
             this.Controls.Add(this.cite__textBox);
             this.Controls.Add(this.citeFull__textBox);
             this.Controls.Add(this.statusStrip1);
+            this.Controls.Add(this.toolStrip1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "MainForm";
             this.Text = "Synthesizer";
@@ -281,6 +306,8 @@
             this.tabPage2.ResumeLayout(false);
             this.statusStrip1.ResumeLayout(false);
             this.statusStrip1.PerformLayout();
+            this.toolStrip1.ResumeLayout(false);
+            this.toolStrip1.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -305,6 +332,8 @@
         private System.Windows.Forms.Button citeNCopy__button;
         private System.Windows.Forms.StatusStrip statusStrip1;
         private System.Windows.Forms.ToolStripStatusLabel _status;
+        private System.Windows.Forms.ToolStrip toolStrip1;
+        private System.Windows.Forms.ToolStripButton stop__toolStripButton;
     }
 }
 
