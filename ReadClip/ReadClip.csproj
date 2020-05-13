@@ -101,6 +101,8 @@
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <None Include="docs\README.md" />
+    <None Include="releases\ReadClip_v0.1.0.zip" />
+    <None Include="releases\ReadClip_v0.2.0.zip" />
     <None Include="Resources\PlayStep_ActionGrey_16x.png" />
     <None Include="Resources\Add_inverse_16x.png" />
     <None Include="Resources\ActionTool_16x.png" />
