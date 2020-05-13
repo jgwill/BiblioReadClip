@@ -147,7 +147,7 @@
             // splitContainer1
             // 
             this.splitContainer1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.splitContainer1.Location = new System.Drawing.Point(0, 50);
+            this.splitContainer1.Location = new System.Drawing.Point(0, 42);
             this.splitContainer1.Name = "splitContainer1";
             this.splitContainer1.Orientation = System.Windows.Forms.Orientation.Horizontal;
             // 
@@ -163,8 +163,8 @@
             // splitContainer1.Panel2
             // 
             this.splitContainer1.Panel2.Controls.Add(this.tabControl1);
-            this.splitContainer1.Size = new System.Drawing.Size(1098, 462);
-            this.splitContainer1.SplitterDistance = 171;
+            this.splitContainer1.Size = new System.Drawing.Size(1098, 470);
+            this.splitContainer1.SplitterDistance = 173;
             this.splitContainer1.TabIndex = 6;
             // 
             // copy__button
@@ -199,7 +199,7 @@
             this.tabControl1.Location = new System.Drawing.Point(0, 0);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
-            this.tabControl1.Size = new System.Drawing.Size(1098, 287);
+            this.tabControl1.Size = new System.Drawing.Size(1098, 293);
             this.tabControl1.TabIndex = 2;
             // 
             // tabPage1
@@ -208,7 +208,7 @@
             this.tabPage1.Location = new System.Drawing.Point(8, 39);
             this.tabPage1.Name = "tabPage1";
             this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage1.Size = new System.Drawing.Size(1082, 240);
+            this.tabPage1.Size = new System.Drawing.Size(1082, 246);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "Context";
             this.tabPage1.UseVisualStyleBackColor = true;
@@ -219,7 +219,7 @@
             this.textToSynthesize__textBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.1F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textToSynthesize__textBox.Location = new System.Drawing.Point(3, 3);
             this.textToSynthesize__textBox.Name = "textToSynthesize__textBox";
-            this.textToSynthesize__textBox.Size = new System.Drawing.Size(1076, 234);
+            this.textToSynthesize__textBox.Size = new System.Drawing.Size(1076, 240);
             this.textToSynthesize__textBox.TabIndex = 0;
             this.textToSynthesize__textBox.Text = "This is a sample text";
             // 
@@ -267,7 +267,7 @@
             this.stop__toolStripButton});
             this.toolStrip1.Location = new System.Drawing.Point(0, 0);
             this.toolStrip1.Name = "toolStrip1";
-            this.toolStrip1.Size = new System.Drawing.Size(1098, 50);
+            this.toolStrip1.Size = new System.Drawing.Size(1098, 42);
             this.toolStrip1.TabIndex = 8;
             this.toolStrip1.Text = "toolStrip1";
             // 
@@ -277,7 +277,7 @@
             this.stop__toolStripButton.Image = global::ReadClip.Properties.Resources.Add_inverse_16x;
             this.stop__toolStripButton.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.stop__toolStripButton.Name = "stop__toolStripButton";
-            this.stop__toolStripButton.Size = new System.Drawing.Size(46, 44);
+            this.stop__toolStripButton.Size = new System.Drawing.Size(46, 36);
             this.stop__toolStripButton.Text = "Stop reading";
             this.stop__toolStripButton.Click += new System.EventHandler(this.stop__toolStripButton_Click);
             // 
