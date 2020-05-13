@@ -56,7 +56,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="biblio.cs" />
+    <Compile Include="BiblioCsl.cs" />
     <Compile Include="MainForm.cs">
       <SubType>Form</SubType>
     </Compile>
