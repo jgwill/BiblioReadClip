@@ -1,0 +1,139 @@
+[
+	{
+		"id": "http://zotero.org/users/180474/items/MDGQBKKW",
+		"type": "book",
+		"abstract": "An authority on creativity introduces us to AI-powered computers that are creating art, literature, and music that may well surpass the creations of humans.Today's computers are composing music that sounds ?more Bach than Bach,? turning photographs into paintings in the style of Van Gogh's Starry Night, and even writing screenplays. But are computers truly creative?or are they merely tools to be used by musicians, artists, and writers? In this book, Arthur I. Miller takes us on a tour of creativity in the age of machines. Miller, an authority on creativity, identifies the key factors essential to the creative process, from ?the need for introspection? to ?the ability to discover the key problem.? He talks to people on the cutting edge of artificial intelligence, encountering computers that mimic the brain and machines that have defeated champions in chess, Jeopardy!, and Go. In the central part of the book, Miller explores the riches of computer-created art, introducing us to artists and computer scientists who have, among much else, unleashed an artificial neural network to create a nightmarish, multi-eyed dog-cat; taught AI to imagine; developed a robot that paints; created algorithms for poetry; and produced the world's first computer-composed musical, Beyond the Fence, staged by Android Lloyd Webber and friends.But, Miller writes, in order to be truly creative, machines will need to step into the world. He probes the nature of consciousness and speaks to researchers trying to develop emotions and consciousness in computers. Miller argues that computers can already be as creative as humans?and someday will surpass us. But this is not a dystopian account; Miller celebrates the creative possibilities of artificial intelligence in art, music, and literature.",
+		"event-place": "Cambridge, MA, USA",
+		"ISBN": "978-0-262-04285-7",
+		"note": "ZSCC: 0000002",
+		"publisher": "MIT Press",
+		"publisher-place": "Cambridge, MA, USA",
+		"source": "international-scholarvox-com.sbiproxy.uqac.ca",
+		"title": "The Artist in the Machine : The World of AI-Powered Creativity",
+		"title-short": "The Artist in the Machine",
+		"URL": "http://international.scholarvox.com/book/88874178",
+		"author": [
+			{
+				"family": "Miller",
+				"given": "Arthur I."
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2020",
+					5,
+					11
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2019"
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/180474/items/P9MXYVLK",
+		"type": "article-journal",
+		"abstract": "Depuis 2015, l’intelligence artificielle (IA) est devenue l’une des grandes priorités des grands acteurs de l’économie numérique et des entreprises. La vague de l’IA commence à égaler celles de l’Internet et de la mobilité en termes d’impact. Il est plutôt difficile d’y échapper ! C’est devenu un outil de la compétitivité des entreprises aussi bien des secteurs du numérique que du reste de l’économie.\nL’IA est aussi devenue rapidement un sujet de société et un objet politique. Elle génère son lot de questions sur le futur du travail, sur l’éthique, sur la répartition des richesses, sur la souveraineté\néconomique et même sur le devenir de l’espèce humaine comme cela a été souligné entre autres\ndans le Rapport de la Mission Villani publié en mars 2018.\nCette vague technologique est atypique dans plusieurs dimensions. Les technologies et méthodes de l’IA sont méconnues ou assimilées à tors et à travers, y compris par la majorité des professionnels du numérique, d’où la propagation de nombreux mythes à son sujet, un peu trop directement inspirés par la science-fiction ou par les thèses singularistes. On croit par exemple que le « deep learning » ou « apprentissage profond » raisonne alors qu’il ne fait qu’appliquer, en général, des modèles probabilistes. De même, dans le machine learning, l’apprentissage non-supervisé n’est pas de l’apprentissage supervisé autonome. La sémantique de l’IA est donc porteuse de contre-sens qu’il faut décrire et éviter. Le sens même de l’appellation « IA » est sujet à d’infinis débats, trop connotés d’accents anthropomorphiques alors que l’IA est artificielle et donc différente de l’intelligence humaine même si les deux ont quelques zones de recouvrement.",
+		"language": "fr",
+		"note": "ZSCC: 0000005",
+		"page": "522",
+		"source": "Zotero",
+		"title": "Les usages de l'intelligence artificielle",
+		"URL": "https://hopitalweb2.com/wp-content/uploads/2018/11/Usages-intelligence-artificielle-2018-Olivier-Ezratty.pdf",
+		"author": [
+			{
+				"family": "Ezratty",
+				"given": "Olivier"
+			}
+		]
+	},
+	{
+		"id": "http://zotero.org/users/180474/items/N4ECRU6W",
+		"type": "book",
+		"call-number": "&nbsp;",
+		"collection-number": "569",
+		"collection-title": "10/18",
+		"edition": "ed. synoptique.",
+		"event-place": "Paris",
+		"language": "fre",
+		"note": "ZSCC: NoCitationData[s0] \npage: 509 p.",
+		"number-of-pages": "509",
+		"publisher": "Union générale d'éditions",
+		"publisher-place": "Paris",
+		"source": "decouverte.uquebec.ca",
+		"title": "Cybernetique et societe: l'usage humain des etres humains.",
+		"title-short": "Cybernetique et societe",
+		"URL": "http://decouverte.uquebec.ca/primo_library/libweb/action/display.do?ct=display&fn=search&doc=aleph_udq000781273",
+		"author": [
+			{
+				"family": "Wiener",
+				"given": "Norbert"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"1971"
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/180474/items/XKNF5R5M",
+		"type": "book",
+		"ISBN": "0-262-23234-0",
+		"language": "eng",
+		"note": "ZSCC: 0000284",
+		"title": "Metacreation : Art and Artificial Life",
+		"author": [
+			{
+				"family": "Whitelaw",
+				"given": "Mitchell"
+			}
+		]
+	},
+	{
+		"id": "http://zotero.org/users/180474/items/JJSY2JZT",
+		"type": "article-journal",
+		"abstract": "This paper describes the application of artificial intelligence to the\ncreation of digital art. AI is a computational paradigm that codifies\nintelligence into machines. There are generally three types of artificial\nintelligence and these are machine learning, evolutionary programming and soft\ncomputing. Machine learning is the statistical approach to building intelligent\nsystems. Evolutionary programming is the use of natural evolutionary systems to\ndesign intelligent machines. Some of the evolutionary programming systems\ninclude genetic algorithm which is inspired by the principles of evolution and\nswarm optimization which is inspired by the swarming of birds, fish, ants etc.\nSoft computing includes techniques such as agent based modelling and fuzzy\nlogic. Opportunities on the applications of these to digital art are explored.",
+		"language": "en",
+		"note": "ZSCC: NoCitationData[s0]",
+		"source": "arxiv.org",
+		"title": "Creativity and Artificial Intelligence: A Digital Art Perspective",
+		"title-short": "Creativity and Artificial Intelligence",
+		"URL": "https://arxiv.org/abs/1807.08195v1",
+		"author": [
+			{
+				"family": "Xing",
+				"given": "Bo"
+			},
+			{
+				"family": "Marwala",
+				"given": "Tshilidzi"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2020",
+					5,
+					11
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2018",
+					7,
+					21
+				]
+			]
+		}
+	}
+]
