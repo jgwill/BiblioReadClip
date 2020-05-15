@@ -148,6 +148,7 @@
             // 
             this.splitContainer1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.splitContainer1.FixedPanel = System.Windows.Forms.FixedPanel.Panel1;
+            this.splitContainer1.IsSplitterFixed = true;
             this.splitContainer1.Location = new System.Drawing.Point(0, 42);
             this.splitContainer1.Name = "splitContainer1";
             this.splitContainer1.Orientation = System.Windows.Forms.Orientation.Horizontal;
@@ -164,8 +165,8 @@
             // splitContainer1.Panel2
             // 
             this.splitContainer1.Panel2.Controls.Add(this.tabControl1);
-            this.splitContainer1.Size = new System.Drawing.Size(1098, 470);
-            this.splitContainer1.SplitterDistance = 173;
+            this.splitContainer1.Size = new System.Drawing.Size(1098, 814);
+            this.splitContainer1.SplitterDistance = 180;
             this.splitContainer1.TabIndex = 6;
             // 
             // copy__button
@@ -200,7 +201,7 @@
             this.tabControl1.Location = new System.Drawing.Point(0, 0);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
-            this.tabControl1.Size = new System.Drawing.Size(1098, 293);
+            this.tabControl1.Size = new System.Drawing.Size(1098, 630);
             this.tabControl1.TabIndex = 2;
             // 
             // tabPage1
@@ -209,7 +210,7 @@
             this.tabPage1.Location = new System.Drawing.Point(8, 39);
             this.tabPage1.Name = "tabPage1";
             this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage1.Size = new System.Drawing.Size(1082, 246);
+            this.tabPage1.Size = new System.Drawing.Size(1082, 583);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "Context";
             this.tabPage1.UseVisualStyleBackColor = true;
@@ -220,7 +221,7 @@
             this.textToSynthesize__textBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.1F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textToSynthesize__textBox.Location = new System.Drawing.Point(3, 3);
             this.textToSynthesize__textBox.Name = "textToSynthesize__textBox";
-            this.textToSynthesize__textBox.Size = new System.Drawing.Size(1076, 240);
+            this.textToSynthesize__textBox.Size = new System.Drawing.Size(1076, 577);
             this.textToSynthesize__textBox.TabIndex = 0;
             this.textToSynthesize__textBox.Text = "This is a sample text";
             // 
@@ -249,7 +250,7 @@
             this.statusStrip1.ImageScalingSize = new System.Drawing.Size(32, 32);
             this.statusStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this._status});
-            this.statusStrip1.Location = new System.Drawing.Point(0, 512);
+            this.statusStrip1.Location = new System.Drawing.Point(0, 856);
             this.statusStrip1.Name = "statusStrip1";
             this.statusStrip1.Size = new System.Drawing.Size(1098, 42);
             this.statusStrip1.TabIndex = 7;
@@ -286,7 +287,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1098, 554);
+            this.ClientSize = new System.Drawing.Size(1098, 898);
             this.Controls.Add(this.splitContainer1);
             this.Controls.Add(this.cite__textBox);
             this.Controls.Add(this.citeFull__textBox);
