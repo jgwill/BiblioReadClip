@@ -147,6 +147,7 @@
             // splitContainer1
             // 
             this.splitContainer1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.splitContainer1.FixedPanel = System.Windows.Forms.FixedPanel.Panel1;
             this.splitContainer1.Location = new System.Drawing.Point(0, 42);
             this.splitContainer1.Name = "splitContainer1";
             this.splitContainer1.Orientation = System.Windows.Forms.Orientation.Horizontal;
@@ -229,7 +230,7 @@
             this.tabPage2.Location = new System.Drawing.Point(8, 39);
             this.tabPage2.Name = "tabPage2";
             this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage2.Size = new System.Drawing.Size(1082, 240);
+            this.tabPage2.Size = new System.Drawing.Size(1082, 246);
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "Console";
             this.tabPage2.UseVisualStyleBackColor = true;
@@ -239,7 +240,7 @@
             this.consoleText.Dock = System.Windows.Forms.DockStyle.Fill;
             this.consoleText.Location = new System.Drawing.Point(3, 3);
             this.consoleText.Name = "consoleText";
-            this.consoleText.Size = new System.Drawing.Size(1076, 234);
+            this.consoleText.Size = new System.Drawing.Size(1076, 240);
             this.consoleText.TabIndex = 0;
             this.consoleText.Text = "";
             // 
