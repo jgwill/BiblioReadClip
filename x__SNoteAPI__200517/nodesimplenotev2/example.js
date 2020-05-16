@@ -1,14 +1,9 @@
-//@v Connected to the SimpleNote API securely
-//@a Config are into an external file that wont commit
-//
-require('dotenv').config()
-
 /**
  * Module Dependencies
  */
 
 var assert = require('assert');
-var Simplenote = require("simplenote");
+var Simplenote = require('./');
 
 assert(process.env.email, 'must provide a simplenote email')
 assert(process.env.pass, 'must provide a simplenote password')

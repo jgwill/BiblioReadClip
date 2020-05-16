@@ -31,6 +31,12 @@
     <Content Include="app.js" />
     <Content Include="package.json" />
     <Content Include="README.md" />
+    <Content Include="sample-dotenv" />
+    <Content Include="simperium\overview_simperium.bib" />
+    <Content Include="x__connect.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="simperium\" />
   </ItemGroup>
   <Import Project="$(VSToolsPath)\Node.js Tools\Microsoft.NodejsToolsV2.targets" />
 </Project>

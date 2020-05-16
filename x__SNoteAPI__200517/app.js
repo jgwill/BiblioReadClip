@@ -1,3 +1,10 @@
 'use strict';
 
-console.log('Hello world');
+console.log('Call SimpleNote API');
+
+//@V A Note is created programmatically
+
+
+
+
+//@V A Note is retrieved programmatically
