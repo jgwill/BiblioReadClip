@@ -1,0 +1,44 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:bib="http://purl.org/net/biblio#"
+ xmlns:foaf="http://xmlns.com/foaf/0.1/"
+ xmlns:link="http://purl.org/rss/1.0/modules/link/"
+ xmlns:dc="http://purl.org/dc/elements/1.1/"
+ xmlns:dcterms="http://purl.org/dc/terms/">
+    <bib:Report rdf:about="#item_3629">
+        <z:itemType>report</z:itemType>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Descoteaux-Isabelle</foaf:surname>
+                        <foaf:givenName>Guillaume</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_3630"/>
+        <link:link rdf:resource="#item_3631"/>
+        <dc:title>Screenshooting</dc:title>
+    </bib:Report>
+    <z:Attachment rdf:about="#item_3630">
+        <z:itemType>attachment</z:itemType>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>https://i.imgur.com/amKjauk.png</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2020-05-16 22:59:09</dcterms:dateSubmitted>
+        <dc:title>Report in BibLatex</dc:title>
+        <z:linkMode>3</z:linkMode>
+        <dc:description>&lt;p&gt;Why is that resource not in the export ?&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;</dc:description>
+    </z:Attachment>
+    <z:Attachment rdf:about="#item_3631">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/3631/reporting_rcis_zotero_platform.bib"/>
+        <dc:title>reporting_rcis_zotero_platform.bib</dc:title>
+        <link:type>application/x-bibtex</link:type>
+    </z:Attachment>
+</rdf:RDF>
