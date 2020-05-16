@@ -237,10 +237,15 @@ namespace ReadClip
               biblio: {author} ({year}). {CurrentBiblioSource.Title}. {CurrentBiblioSource.Publisher}. {CurrentBiblioSource.Url}
 ";
 
-            consoleText.AppendText(sampleCite);
+            addConsole(sampleCite);
 
             textToSynthesize__textBox.Text =
                 ">" + textToSynthesize__textBox.Text + "\n>" + cite;
+        }
+
+        private void addConsole(string txt)
+        {
+            consoleText.AppendText(txt + "\n");
         }
 
         private string makeAuthor(BiblioCsl _current)
