@@ -1,0 +1,12 @@
+{
+  "name": "x__snote-api__200517",
+  "version": "0.0.0",
+  "description": "x__SNoteAPI__200517",
+  "main": "app.js",
+  "author": {
+    "name": ""
+  },
+  "dependencies": {
+    "simplenote": "0.0.2"
+  }
+}
