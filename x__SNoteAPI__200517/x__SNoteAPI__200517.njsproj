@@ -33,6 +33,8 @@
     <Content Include="README.md" />
     <Content Include="sample-dotenv" />
     <Content Include="simperium\overview_simperium.bib" />
+    <Content Include="simperium\sample_artwork.bib" />
+    <Content Include="STC.md" />
     <Content Include="x__connect.js" />
   </ItemGroup>
   <ItemGroup>

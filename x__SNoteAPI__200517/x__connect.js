@@ -8,15 +8,21 @@ require('dotenv').config()
  */
 
 var assert = require('assert');
-var Simplenote = require("simplenote");
+var Simplenote = require("./simplenotev2node/index");
 
 assert(process.env.email, 'must provide a simplenote email')
 assert(process.env.pass, 'must provide a simplenote password')
+console.log("Env seems ok: User is :" + process.env.email);
 
 var simplenote = Simplenote(process.env.email, process.env.pass);
 
 simplenote.all(function(err, notes) {
-  if (err) throw err;
+  if (err) console.log(err);
+
+  console.log("-----------notes>>-------");
+  console.log(notes);
+  console.log("-----------notes<<-------");
+    
   var keys = notes.select('tags.length');
   console.log(keys);
 })
